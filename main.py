@@ -38,7 +38,7 @@ def download_images():
     
     # get url query string
     searchurl = GOOGLE_IMAGE + 'q=' + data
-    print(searchurl)
+    print(searchurl) 
 
 #     # request url, without usr_agent the permission gets denied
 #     response = requests.get(searchurl, headers=usr_agent)
